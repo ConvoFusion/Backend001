@@ -1,6 +1,7 @@
 const brevo = require("sib-api-v3-sdk");
 let defaultClient = brevo.ApiClient.instance;
-const sendinblueApiKey = process.env.SENDINBLUE;
+const sendinblueApiKey = process.env.SENDINBLUE_API_KEY;
+
 
 // if (brevo.ApiClient) {
 //  var defaultClient = brevo.ApiClient.instance;
